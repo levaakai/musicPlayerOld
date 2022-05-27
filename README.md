@@ -1,9 +1,12 @@
 # musicPlayerOld
 
-Project's Title
+Project Title
+
 BoomBox v2
 
-Project Description
+
+Project Description:
+
 The BoomBox is a web-based audio player that allow users to be able to play audio files that are on their local devices. Vanilla Javascript was used in the implementation of this project because, shortly after being introduced to JS, I wanted to build something that would help test my skillset and due to that, I used JS.
  
 A major challenge faced in this project was working with files (reading files from the local machine and manipulating it). This challenge proved a great disadvantage to my making of this project. Though I found a way to work around it for now, I look forward to finding a much more succint and efficient way to tackle this challenge.
