@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="shortcut icon" href="/" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fontawesome/css/solid.css">
+    <title>BoomBox</title>
+</head>
+
+<body>
+    <h1>BoomBox v.2</h1>
+
+    <div class="container">
+        <div class="player-container">
+
+            <div class="player-body">
+                <div class="player">
+                    <div class="menu-screen">
+
+<!-- sidebar interface -->
+                        <div class="default-sidebar">
+                            <div class="icon add-to-playlist" hidden><i class="fas fa-plus"></i></div>
+                            <div class="icon btn-now-playing" hidden><i class="fas fa-play-circle"></i></div>
+                            <div class="icon btn-playlist"><i class="fas fa-list"></i></div>
+                            <div class="icon"><i class="fas fa-clipboard-list"></i></div>
+                            <div class="icon"><i class="fas fa-clipboard-list"></i></div>
+                            <div class="icon"><i class="fas fa-clipboard-list"></i></div>
+                            <div class="icon"><i class="fas fa-search"></i></div>
+                            <div class="icon back-btn" hidden><i class="fas fa-arrow-left"></i></div>
+                        </div>
+
+<!-- default screen interface -->
+                      <div class="screen-panel" id="screen-panel-main">
+                            <div class="add">
+                                <span id="add-btn">
+                                    <input type="file" id="put" multiple>
+                                    <label for="put">Upload</label>
+                                </span>
+                            </div>
+                            <div id="playlist-panel" class="playlist-pane">
+                                <div class="playlist-title">
+                                    <p>Playlist Title Here!</p>
+                                </div>
+                                <div class="playlist-contentl">
+                                    <ul id="ul">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+<!-- playlist section interface -->
+                        <div class="screen-panel" id="playlist-section" hidden>
+                            <div id="playlist-section-panel" class="playlist-pane">
+                                <div class="playlist-title">
+                                    <p>Current Playlist</p>
+                                </div>
+                                <div class="playlist-content">
+                                    <ul id="ul"></ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+<!-- now playing interface -->
+                        <!-- <div id="now-playing-interface"> -->
+                            <div class="now-playing-screen-panel" id="now-playing-section">
+                                <!-- <div class="now-playing-sidebar"> -->
+                                    <div class="icon hamburger" hidden><i class="fas fa-grip-lines"></i></div>
+                                <!-- </div> -->
+                                <div class="footer-panel">
+                                    <div class="track-details"></div>
+                                    <div class="now-playing-ctrls"></div>
+                                </div>
+
+                            </div>
+                        <!-- </div> -->
+                    </div>
+
+
+<!-- control panels -->
+
+                    <div class="ctrl-panel">
+                        <div class="primary-ctrl-panel">
+                            <div class="audio">
+                                <span class="btn-prev"><i class="fas fa-chevron-circle-left"></i></span>
+                                <span class="btn-play"><i class="fas fa-play"></i></span>
+                                <span class="btn-next"><i class="fas fa-chevron-circle-right"></i></span>
+                            </div>
+                        </div>
+                        <div class="secondary-ctrl-panel audio">
+                            <span class="btn-playlist9">Playlist</span>
+                            <span class="btn-next"><i class="fas fa-volume-down"></i></span>
+                            <span class="btn-playlist"><i class="fas fa-list"></i></span>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <span class="duration-start">--:--</span>
+                        <div class="progress-bar-fill">
+                            <div class="slider"></div>
+                            <div class="handle"></div>
+                        </div>
+                        <span class="duration-end">--:--</span>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./assets/fontawesome/js/fontawesome.js"></script>
+    <script  type="text/javascript" src="./assets/fontawesome/js/all.js"></script>
+</body>
+
+</html>
